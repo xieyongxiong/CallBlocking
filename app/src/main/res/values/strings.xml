@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CallBlocking</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="toolbar_title">主菜单</string>
+    <string name="toolbar_title_blacklist">黑名单</string>
+    <string name="toolbar_title_time">时间拦截设置</string>
+    <string name="toolbar_title_prefix">模糊拦截</string>
+    <string name="title_activity_time">TimeActivity</string>
+    <string name="clock_view_title">时间拦截设置</string>
+</resources>

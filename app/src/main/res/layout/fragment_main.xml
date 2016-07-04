@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xieyongxiong.callblocking.Fragment.MainFragment"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/main"
+        android:scaleType="fitXY"
+        android:layout_above="@+id/imageButton_list1" />
+
+    <LinearLayout
+        android:id="@+id/imageButton_list2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <ImageButton
+            android:id="@+id/location_block"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="@dimen/ImageButton_margin"
+            android:layout_weight="1"
+            android:background="@drawable/location"
+            />
+
+        <ImageButton
+            android:id="@+id/ib2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="@dimen/ImageButton_margin"
+            android:layout_weight="1"
+            />
+
+        <ImageButton
+            android:id="@+id/ib_exit"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="@dimen/ImageButton_margin"
+            android:layout_weight="1"
+            android:background="@drawable/close"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/imageButton_list1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/imageButton_list2">
+        <ImageButton
+            android:id="@+id/blacklist_block"
+            android:layout_width="@dimen/ImageButton_width"
+            android:layout_height="@dimen/ImageButton_width"
+            android:background="@drawable/blacklist"
+            android:layout_margin="@dimen/ImageButton_margin"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            />
+        <ImageButton
+            android:id="@+id/time_block"
+            android:layout_width="@dimen/ImageButton_width"
+            android:layout_height="@dimen/ImageButton_width"
+            android:background="@drawable/clock"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/ImageButton_margin"
+            />
+        <ImageButton
+            android:id="@+id/contact_block"
+            android:layout_width="@dimen/ImageButton_width"
+            android:layout_height="@dimen/ImageButton_width"
+            android:background="@drawable/contact1"
+            android:layout_weight="1"
+            android:layout_margin="@dimen/ImageButton_margin"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
