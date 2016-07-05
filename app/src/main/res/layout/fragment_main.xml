@@ -29,13 +29,7 @@
             android:background="@drawable/location"
             />
 
-        <ImageButton
-            android:id="@+id/ib2"
-            android:layout_width="90dp"
-            android:layout_height="90dp"
-            android:layout_margin="@dimen/ImageButton_margin"
-            android:layout_weight="1"
-            />
+
 
         <ImageButton
             android:id="@+id/ib_exit"
@@ -44,6 +38,15 @@
             android:layout_margin="@dimen/ImageButton_margin"
             android:layout_weight="1"
             android:background="@drawable/close"
+            />
+
+        <ImageButton
+            android:id="@+id/ib2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_margin="@dimen/ImageButton_margin"
+            android:layout_weight="1"
+            android:visibility="invisible"
             />
 
     </LinearLayout>
