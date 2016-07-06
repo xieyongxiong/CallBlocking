@@ -207,7 +207,7 @@ public class BlockService extends Service {
                             .getSystemService(getBaseContext().NOTIFICATION_SERVICE);
                     Notification.Builder builder = new Notification.Builder(getBaseContext());
                     Notification notification = builder
-                            .setContentTitle(number)
+                            .setContentTitle("拦截来电成功")
                             .setContentText(phone)
                             .setSmallIcon(android.R.drawable.ic_dialog_info)
                             .build();
