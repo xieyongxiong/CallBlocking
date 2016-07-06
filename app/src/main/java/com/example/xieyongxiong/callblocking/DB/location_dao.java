@@ -20,6 +20,7 @@ public class location_dao {
     public location_dao(Context context) {
         mcontext = context;
         dbHelper = new location_dbHelper(mcontext);
+        db = dbHelper.getReadableDatabase();
     }
 
     public List<String> query(){

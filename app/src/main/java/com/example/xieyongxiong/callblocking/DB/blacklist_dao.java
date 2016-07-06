@@ -19,6 +19,7 @@ public class blacklist_dao {
     public blacklist_dao(Context context) {
         mcontext=context;
         dbHelper=new blacklist_dbHelper(mcontext);
+        db = dbHelper.getReadableDatabase();
     }
     public List<String> query(){
         db=dbHelper.getReadableDatabase();
